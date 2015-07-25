@@ -10,7 +10,6 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  margin: 0;
 }
 
 /**
@@ -18,7 +17,7 @@ html {
  */
 
 body {
-  margin: 0px 0px 0px 0px;
+  margin: 0;
 }
 
 /* HTML5 display definitions
