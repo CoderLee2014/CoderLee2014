@@ -126,6 +126,10 @@ strong {
 dfn {
   font-style: italic;
 }
+header{
+  background-color:blue;
+  
+}
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
