@@ -132,13 +132,15 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
-h1 {
+h1,h2{
   font-size: 2em;
   margin: 0.67em 0;
   color:red;
   text-align:center;
 }
-
+h2{
+  color:green;
+}
 /**
  * Address styling not present in IE 8/9.
  */
