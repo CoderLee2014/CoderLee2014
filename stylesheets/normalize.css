@@ -423,3 +423,9 @@ td,
 th {
   padding: 0;
 }
+sidebar{
+  color:blue;
+  height:200;
+  width:200;
+  background:yellow;
+}
