@@ -140,6 +140,7 @@ h1,h2{
 }
 h2{
   color:green;
+  font-size:1em;
 }
 /**
  * Address styling not present in IE 8/9.
