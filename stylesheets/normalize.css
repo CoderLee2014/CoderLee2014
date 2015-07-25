@@ -145,6 +145,7 @@ h1,h2{
 h2{
   color:black;
   font-size:1em;
+  margin:10px 0 10px 0;
 }
 /**
  * Address styling not present in IE 8/9.
