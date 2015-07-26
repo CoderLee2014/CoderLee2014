@@ -4,7 +4,7 @@
   float:left;
   display:inline;
   background:red;
-  border-style:solid;
+  border-style:double;
   border:10px;
   border-color:black;
 }
