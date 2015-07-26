@@ -148,6 +148,9 @@ h2{
   font-size:1em;
   margin:10px 0 10px 0;
 }
+header ul{
+  text-align:center;
+}
 /**
  * Address styling not present in IE 8/9.
  */
