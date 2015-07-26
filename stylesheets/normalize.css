@@ -10,6 +10,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+    height: 100%;
 }
 
 /**
@@ -18,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  height: 100%;
 }
 
 /* HTML5 display definitions
@@ -37,7 +39,7 @@ header{
 h1,h2{
   font-size: 2em;
   margin: 0;
-  color:red;
+  color:white;
   text-align:center;
 }
 h2{
@@ -54,3 +56,18 @@ header li{
   font-family:'Open Sans',sans-serif;
   text-align:center;
 }
+footer {
+    position: relative;
+    bottom: 0;
+    width:100%;
+    height: 60px;
+    border-top: 1px solid;
+    padding: 10px 0 10px 0;
+    background: #f7f7f7;
+    margin:10px 0px 0px 0px;
+    font-family: fantasy;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+
+
