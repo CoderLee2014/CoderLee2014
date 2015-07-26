@@ -1,0 +1,14 @@
+#myprofils{
+  width:20%; 
+  height:auto;
+  float:left;
+  display:inline;
+  background:red
+}
+#contents{
+  width:20%;
+  height:auto;
+  float:left;
+  display:inline;
+  background:yellow;
+}
