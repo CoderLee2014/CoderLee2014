@@ -52,5 +52,6 @@ header li{
   display:inline-block;
   width:100px;
   font-family:'Open Sans',sans-serif;
+  font-size:62.5%;
   text-align:center;
 }
