@@ -51,5 +51,6 @@ header ul{
 header li{
   display:inline-block;
   width:100px;
+  font-family:sans serif;
   text-align:center;
 }
