@@ -1,6 +1,7 @@
-#myprofile{
+#sidebar{
+  position: relative;
   width:20%; 
-  height:auto;
+  height:100%;
   float:left;
   display:inline;
   background:red;
@@ -15,3 +16,11 @@
   display:inline-flex;
   background:yellow;
 }
+#contents {
+    height:inherit;
+}
+
+#main-pannel {
+    height: 100%;
+}
+
