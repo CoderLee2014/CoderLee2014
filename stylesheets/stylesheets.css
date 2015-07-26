@@ -5,7 +5,7 @@
   display:inline;
   background:red;
   border-style:double;
-  border:10px;
+  border-width:10px;
   border-color:black;
 }
 #contents{
