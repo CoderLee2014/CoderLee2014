@@ -4,6 +4,7 @@
   float:left;
   display:inline;
   background:red;
+  border-style:solid;
   border:10px;
   border-color:black;
 }
