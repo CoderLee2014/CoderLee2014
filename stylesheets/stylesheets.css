@@ -3,7 +3,8 @@
   height:auto;
   float:left;
   display:inline;
-  background:red
+  background:red;
+  border:10px;
 }
 #contents{
   width:80%;
