@@ -5,6 +5,7 @@
   display:inline;
   background:red;
   border:10px;
+  border-color:black;
 }
 #contents{
   width:80%;
