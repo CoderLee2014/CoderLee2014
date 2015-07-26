@@ -51,6 +51,6 @@ header ul{
 header li{
   display:inline-block;
   width:100px;
-  font-family:sans-serif;
+  font-family:sans-serif,'open sans';
   text-align:center;
 }
