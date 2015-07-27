@@ -1,0 +1,40 @@
+#sidebar{
+  position: relative;
+  width:20%; 
+  height:100%;
+  margin:  10px 10px 10px 10px;
+  float:left;
+  display:inline;
+  background:red;
+  border-style:double;
+  border-width:5px;
+  border-color:gray;
+}
+#contents{
+  position: relative;
+  margin: 10px;
+  float: left;
+  width:75%;
+  height:100%;
+  display: inline;
+  background:yellow;
+}
+#contents {
+    height:inherit;
+}
+
+#main-pannel {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+#infobase {
+    margin:10px;
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 5px;
+}

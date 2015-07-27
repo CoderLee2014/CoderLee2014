@@ -1,0 +1,71 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+    height: 100%;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+header{
+  background-image: url(/res/header.jpg);
+  background-size: 100% 100% ;
+  padding:10px;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1,h2{
+  font-size: 2em;
+  margin: 0;
+  color:white;
+  text-align:center;
+}
+h2{
+  color:black;
+  font-size:1em;
+  margin:10px 0 10px 0;
+}
+header ul{
+  text-align:center;
+}
+header li{
+  display:inline-block;
+  width:100px;
+  font-family:'Open Sans',sans-serif;
+  text-align:center;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width:100%;
+    height: 60px;
+    border-top: 1px solid;
+    padding: 10px 0 10px 0;
+    background: #f7f7f7;
+    margin:10px 0px 0px 0px;
+    font-family: fantasy;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+}
+
+
