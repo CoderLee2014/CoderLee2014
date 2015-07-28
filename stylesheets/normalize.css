@@ -22,13 +22,10 @@ body {
   height: 100%;
 }
 
-/* HTML5 display definitions
-   ========================================================================== */
-
 header{
-  background-color:#4169E1;
-  margin:0px 0px 10px 0px;
-  padding:0 0 10px 0;
+  background-image: url(/res/header.jpg);
+  background-size: 100% 100% ;
+  padding:10px;
 }
 
 /**
@@ -69,5 +66,6 @@ footer {
     font-size: 1.5em;
     display: block;
     text-align: center;
+}
 
 
