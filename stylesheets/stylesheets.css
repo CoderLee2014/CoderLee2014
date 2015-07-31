@@ -11,10 +11,10 @@
   border-color:gray;
 }
 #contents{
-  position: fixed;
+  position: relative;
   margin: 10px;
-  left:2px;
-  width:75%;
+  left:25%;
+  width:70%;
   height:100%;
   display: inline;
   background:yellow;
