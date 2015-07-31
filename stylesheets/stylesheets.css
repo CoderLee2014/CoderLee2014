@@ -11,7 +11,7 @@
   border-color:gray;
 }
 #contents{
-  position: relative;
+  position: absolute;
   margin: 10px;
   width:70%;
   height:100%;
