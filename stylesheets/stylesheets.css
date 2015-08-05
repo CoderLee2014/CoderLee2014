@@ -11,10 +11,9 @@
   border-color:gray;
 }
 #contents{
-  position: relative;
+  position: absolute;
   margin: 10px;
-  float: left;
-  width:75%;
+  width:70%;
   height:100%;
   display: inline;
   background:yellow;
