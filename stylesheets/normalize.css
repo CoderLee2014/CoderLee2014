@@ -60,12 +60,30 @@ footer {
     height: 60px;
     border-top: 1px solid;
     padding: 10px 0 10px 0;
-    background: #f7f7f7;
+    background-color:antiquewhite;
     margin:10px 0px 0px 0px;
     font-family: fantasy;
     font-size: 1.5em;
     display: block;
     text-align: center;
 }
-
-
+a{
+    color: azure;   
+}
+header a:link {
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color:aqua;
+    text-decoration: none;
+}
+img{
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+}
+p{
+    margin: 10%;
+    text-align: left;
+}
