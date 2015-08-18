@@ -44,14 +44,20 @@ h2{
   font-size:1em;
   margin:10px 0 10px 0;
 }
-header ul{
-  text-align:center;
-}
+
 header li{
   display:inline-block;
   width:100px;
   font-family:'Open Sans',sans-serif;
   text-align:center;
+}
+header li a.current{
+  width: 0;
+		height: 0;
+		border-left: 9px solid transparent;
+		border-right: 9px solid transparent;
+		border-bottom: 9px solid #f7f7f7;
+		margin: -8px auto 0 auto;
 }
 footer {
     position: relative;
@@ -86,4 +92,7 @@ img{
 p{
     margin: 10%;
     text-align: left;
+}
+ul {
+    text-align: center;
 }
