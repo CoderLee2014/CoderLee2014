@@ -1,40 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>fengkuang_blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheets.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <header>
-            <h1>fengkuang_blog</h1>
-            <h2>Do what you have to do until you can do what you want to do.</h2>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="articles.html">articles</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-      </header>
-    
-      <div id="main-pannel">
-        <div id="sidebar">
-            <h2>my profile</h2>
-            <img src="res/profile.jpg" />
-            <div id="infobase">
-                <p>Username:Honglin LI</p>
-                <p>Age:23</p>
-                <p>Domain:web</p>
-            </div>
-        </div>  
-        <div id="contents">contente</div>  
-     </div>
-    
-      <footer>This blog is built by Honglin LI</footer>
-       
-  </body>
-</html>
+<?php
+require 'smart/libs/Smarty.class.php';
+$smarty = new Smarty();
+$smarty->template_dir = "smarty/templates/templates";
+$smarty->compile_dir = "smarty/templates/templates_c";
+$smarty->config_dir = "smarty/templates/config";
+$smarty->cache_dir = "smarty/templates/cache";
+$smarty->caching = false;
+$smarty->left_delimiter ="{#";
+$smarty-right_delimiter ="#}";
+$hello = "Hello World!";
+$smarty->assign("hello",$hello);
+$smarty->display("index.tpl");?>
