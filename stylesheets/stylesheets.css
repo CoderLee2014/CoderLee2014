@@ -38,3 +38,15 @@
     border-color: aqua;
     border-width: 5px;
 }
+
+a {
+    display: block;
+    color: aliceblue;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 8px;
+    text-decoration:none;
+}
+a:link{
+    color: blue;
+}
