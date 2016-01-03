@@ -1,35 +1,40 @@
 #sidebar{
   position: relative;
   width:20%; 
-  height:98%;
-  margin:  10px 10px 0px 10px;
+  height:100%;
+  margin:  10px 10px 10px 10px;
   float:left;
   display:inline;
-  background:white;
+  background:red;
   border-style:double;
   border-width:5px;
-  border-color:black;
+  border-color:gray;
 }
 #contents{
-  position: absolute;
-  width:70%;
-  height:98%;
-  margin:  10px 10px 0px 10px;
+  position: relative;
+  margin: 10px;
+  float: left;
+  width:75%;
+  height:100%;
   display: inline;
-  background: white;
-  border-style: solid;
-  border-width: 5px;  
+  background:yellow;
 }
-
+#contents {
+    height:inherit;
+}
 
 #main-pannel {
     height: 100%;
     width: 100%;
 }
 
+
+
+
+
 #infobase {
     margin:10px;
-    border-color: black;
+    border-style: dotted;
+    border-color: aqua;
     border-width: 5px;
-    margin-left: 10%;
 }
