@@ -47,6 +47,6 @@ a {
     padding: 0 8px;
     text-decoration:none;
 }
-a:link{
+a:hover{
     color: blue;
 }
