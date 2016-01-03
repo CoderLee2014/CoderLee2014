@@ -8,6 +8,19 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheets.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+      <script>
+function bigImg(x)
+{
+x.style.height="180px";
+x.style.width="180px";
+}
+
+function normalImg(x)
+{
+x.style.height="128px";
+x.style.width="128px";
+}
+</script>
   </head>
   <body>
     <header>
@@ -23,7 +36,9 @@
       <div id="main-pannel">
         <div id="sidebar">
             <h2>my profile</h2>
-            <imag src= "res/profile.jpg" width="128" height="128"/>
+            <p>
+            <img onmouseup="bigImg(this)" src= "res/profile.jpg" width="128" height="128"/>
+            </p>
             <div id="infobase">
                 <p>username:Honglin LI</p>
                 <p>age:23</p>
