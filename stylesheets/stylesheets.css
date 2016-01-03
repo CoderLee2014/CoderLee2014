@@ -1,14 +1,15 @@
 #sidebar{
   position: relative;
   width:20%; 
-  height:100%;
+  height:auto;
   margin:  10px 10px 10px 10px;
   float:left;
   display:inline;
-  background:red;
+  background: ;
   border-style:double;
   border-width:5px;
   border-color:gray;
+  font-family: serif;
 }
 #contents{
   position: relative;
@@ -17,7 +18,7 @@
   width:75%;
   height:100%;
   display: inline;
-  background:yellow;
+  background:;
 }
 #contents {
     height:inherit;
@@ -33,9 +34,14 @@
 
 
 #infobase {
-    margin:10px;
-    border-style: dotted;
-    border-color: aqua;
+    
+    position: relative;
+    left: 10%;
+    width: 80%;
+    bottom: 10px;
+    height: 100%;
+    border-style:groove;
+    border-color:burlywood;
     border-width: 5px;
 }
 
