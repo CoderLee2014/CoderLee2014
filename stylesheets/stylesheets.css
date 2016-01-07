@@ -53,6 +53,7 @@ a {
     line-height: 42px;
     padding: 0 8px;
     text-decoration:none;
+    font-size: 2em;
 }
 a:hover{
     color: blue;

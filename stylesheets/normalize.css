@@ -23,7 +23,7 @@ body {
 }
 
 header{
-  background-image: url(/res/header.jpg);
+  background-image: url(/fengkuang_blog/res/header.jpg);
   background-size: 100% 100% ;
   padding:10px;
   position: relative;
@@ -82,11 +82,14 @@ img{
     height: 100%;
 }
 
-p {
+span {
+    margin:inherit;
     position: relative;
+    left: inherit;
+    right:10%;
     height: auto;
-    width: auto;
-    display:block;
+    width: 80%;
+    font-size:auto;
 }
 
 
