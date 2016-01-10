@@ -55,20 +55,6 @@ ul li{
     display: inline-block;
     font-size: 2em;
 }
-footer {
-    position: relative;
-    bottom: 0;
-    width:100%;
-    height: 60px;
-    border-top: 1px solid;
-    padding: 10px 0 10px 0;
-    background: #f7f7f7;
-    margin:10px 0px 0px 0px;
-    font-family: fantasy;
-    font-size: 1.5em;
-    display: block;
-    text-align: center;
-}
 
 
 
