@@ -77,7 +77,7 @@ h6 {
 /* === Top Bar === */
 .top-bar{
 	padding:20px 0;
-	background:#323232;
+	background-color: darkorange;
 	color:#FFF;
 }
 .top-bar .social-icons{
