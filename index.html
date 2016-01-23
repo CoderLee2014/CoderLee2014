@@ -78,14 +78,8 @@
                 <div id="menuzord" class="menuzord red pull-left menuzord-responsive"><a href="javascript:void(0)" class="showhide" style="display: none;"><em></em><em></em><em></em></a>
                   
                     <ul class="menuzord-menu menuzord-right menuzord-indented scrollable" style="max-height: 400px; display: block;">
-                        <li class="inactive"><a href="#">Home<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
-                            <ul class="dropdown" style="right: auto; display: none;">
-                                <li><a href="index.html">Home Layout 1</a></li>
-                                <li><a href="index-2.html">Home Layout 2</a></li>
-                                <li><a href="index-3.html">Home Layout 3</a></li>
-                                <li><a href="index-4.html">Home Layout 4</a></li>
-                                <li><a href="index-5.html">Home Layout 5</a></li>
-                            </ul>
+                        <li class="inactive"><a href="index.html">Home<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+                            
                         </li>
                         <li><a href="about.html">About Me</a></li>           
                         <li><a href="javascript:void(0)">Category<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
@@ -222,7 +216,7 @@
  
        <section id="body-content">
         <div class="container">
-            <div class="box box-element ui-draggable" style="display: block;"> 
+            <div class="box box-element ui-draggable" style="display: block;" id="slider"> 
                 <div class="view">
                 <div class="carousel slide" id="carousel-839923">
                 <ol class="carousel-indicators">
@@ -255,7 +249,7 @@
                 </div>
             <div class="row">
                     <div class="col-sm-8">
-                        <div class="blog-post">
+                        <div class="blog-post" id="blog-post">
                             <div class="blog-outer">
                                 <div class="meta">
                                     <span class="date">18-Jan-2016</span>
@@ -271,14 +265,14 @@
                                     </span>
                                 </div>
                                 <h3 class="blog-title">
-                                    <a href="#">The project in class of avanced web programming</a>
+                                    <a href="#"> 项目总结--实现Linux下的find命令</a>
                                 </h3>
                                 <div class="admin-text">
-                                    <p><img src="images/author-thumb.jpg" alt="" class="img-circle"></p>
+                                  
                                     <i>By <a href="#">LI Honglin</a></i>
                                 </div>
-                                <div class="blog-text">
-                                    Post in future.
+                                <div class="blog-text" id="blog-text">
+                                    Click Read more for reading this article.
                                 </div>
                             </div>
                             <div class="blog-bottom">
@@ -633,6 +627,8 @@
     <script type='text/javascript' src="js/jquery.validate.min.js"></script>
     <script type='text/javascript' src="twitter/jquery.tweet.js"></script>    
     <script type='text/javascript' src="js/site-custom.js"></script>
+    
+        <script type='text/javascript' src="js/blog.js"></script>    
 <script>
         $(document).ready(function() {
 
