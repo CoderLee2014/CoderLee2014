@@ -1,3 +1,4 @@
+
 function loadBlog(e){
 	if(document.readyState !="complete")
 	return ;
@@ -9,11 +10,20 @@ function loadBlog(e){
                 element.parentNode.removeChild(element);
                 var text=document.getElementById("blog-text");
                 jQuery.get('/blog/test.txt', function(data) {
-                    text.innerHTML = data;
                     //process text file line by line
-                    text.html(data.replace('\n','\n'));
-                    
+                    text.innerHTML = data;
+                    text.html(data.replace('\n','<br>'));
 }); 
 				});
 }
 document.addEventListener("readystatechange",loadBlog);
+
+/*$(document).ready(function(){
+    console.log("tttt");
+   $("#blog-title").click(function(){
+       console.log("test");
+    //  obj=$.ajax({url:"/blog/test.txt",async:false});
+//       $("#blog-post").html(obj.responseText);
+   });
+});
+*/
