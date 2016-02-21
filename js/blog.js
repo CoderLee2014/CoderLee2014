@@ -11,6 +11,7 @@ function loadBlog(e){
                 var text=document.getElementById("blog-text");
                 jQuery.get('/blog/test.txt', function(data) {
                     //process text file line by line
+                    text.innerHTML = "";
                     var node =document.createTextNode(data.replace('\n',"<br>"));
                     text.appendChild(node);
 }); 
