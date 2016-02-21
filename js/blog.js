@@ -12,7 +12,7 @@ function loadBlog(e){
                 jQuery.get('/blog/test.txt', function(data) {
                     //process text file line by line
                     text.innerHTML = data;
-                    text.html(data.replace('\n','<br>'));
+                    text.html(data.replace('\n',"<br>"));
 }); 
 				});
 }
