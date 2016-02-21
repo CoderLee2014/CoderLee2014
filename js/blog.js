@@ -13,7 +13,7 @@ function loadBlog(e){
                     //process text file line by line
                    
                     text.innerHTML = data;
-                    text.html( data.replace('\n',"<br>"););
+                    text.html( data.replace('\n',"<br>"));
 }); 
 				});
 }
